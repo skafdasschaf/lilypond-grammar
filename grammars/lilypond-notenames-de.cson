@@ -1,0 +1,20 @@
+'name': 'LilyPond-notenames-de'
+'patterns': [
+  {
+    'content': 'LilyPond note or chord abbreviation'
+    'match': '\\b(c|ces|ceses|cis|cisis|d|des|deses|dis|disis|e|es|eses|eis|eisis|f|fes|feses|fis|fisis|g|ges|geses|gis|gisis|a|as|ases|ais|aisis|h|b|bes|his|hisis)(\'*,*)([?!]?)(128|64|32|16|8|4|2|1|\\breve|\\longa|\\maxima)(.*)([\*\/0-9])*'
+    'name': 'keyword.note.ly'
+    'captures':
+      '1':
+        'name': 'keyword.note.name.ly'
+      '2':
+        'name': 'keyword.note.transpose.ly'
+      '3':
+        'name': 'keyword.note.duration.ly'
+      '4':
+        'name': 'keyword.note.dots.ly'
+      '5':
+        'name': 'keyword.note.scaling.ly'
+  }
+]
+'scopeName': 'source.ly.notenames'
