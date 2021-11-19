@@ -42,12 +42,12 @@
   }
   {
     'content': 'LilyPond custom keywords'
-    'match': '([-_^](\\s*))?\\\\(partTitle|partMark|tempoMarkup|solo|tutti|tasto|org|vlc|bassi|unisono|pizz|pizzE|arco|senzaOrg|colOrg|dolce|critnote|extraNat|kneeBeam|noKneeBeam|rh|lh|x|bp|dynScript|dynScriptPrefix|smallGroupDistance|normalGroupDistance|smallStaffDistance|twofourtime|mvTr|mvTrh|mvTrr|hideTn|mvDll|scriptOut|pao|pa|pd|hairpinDashed|hairpinSolid|sbOn|sbOff|parOn|parOff|bo|bc|tocPart|tocSection|tocSubsection|tocLabel|tocLabelLong)(?![a-zA-Z])'
+    'match': '([-_^](\\s*))?\\\\(smallGroupDistance|normalGroupDistance|smallStaffDistance|insertEmptyPage|part|section|subsection|addTocEntry|addTocLabel|arco|bassi|colOrg|dolce|org|pizz|senzaOrg|solo|tasto|tutti|unisono|vlc|critnote|mvTr|mvTrh|mvTrr|tempoMarkup|twofourtime|twotwotime|bp|extraNat|hairpinDashed|hairpinSolid|hideTn|kneeBeam|noKneeBeam|markDaCapo|mvDll|parOn|parOff|sbOn|sbOff|scriptOut|x|pa|pao|pd|rh|lh|bo|bc|dynScript|dynScriptPrefix)(?![a-zA-Z])'
     'name': 'keyword.custom.lilypond'
   }
   {
     'content': 'LilyPond custom keywords (editorial)'
-    'match': '([-_^](\\s*))?\\\\(|soloE|tuttiE|tastoE|orgE|vlcE|bassiE|unisonoE|pizzE|arcoE|senzaOrgE|colOrgE|dolceE|xE)(?![a-zA-Z])'
+    'match': '([-_^](\\s*))?\\\\(arcoE|bassiE|colOrgE|dolceE|orgE|pizzE|senzaOrgE|soloE|tastoE|tuttiE|unisonoE|vlcE|xE|)(?![a-zA-Z])'
     'name': 'keyword.custom.editorial.lilypond'
   }
   {
