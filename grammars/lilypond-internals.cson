@@ -42,7 +42,7 @@
   }
   {
     'content': 'LilyPond custom keywords'
-    'match': '([-_^](\\s*))?\\\\(setGroupDistance|setStaffDistance|smallGroupDistance|normalGroupDistance|smallStaffDistance|incipit|incipitSoprano|incipitAlto|incipitTenore|transposedName|transposedNameShort|transposedTimp|transposedTimpShort|insertEmptyPage|part|section|subsection|addTocEntry|addTocLabel|remark|arco|bassi|colOrg|dolce|org|pizz|senzaOrg|solo|tasto|tutti|unisono|vlc|critnote|mvTr|mvTrh|mvTrr|tempoMarkup|twofourtime|twotwotime|bp|extraNat|hairpinDashed|hairpinSolid|hideTn|kneeBeam|noKneeBeam|markDaCapo|mvDll|parOn|parOff|sbOn|sbOff|scriptOut|x|pa|pao|pd|rh|lh|bo|bc|dynScript|dynScriptPrefix)(?![a-zA-Z])'
+    'match': '([-_^](\\s*))?\\\\(setGroupDistance|setStaffDistance|smallGroupDistance|normalGroupDistance|smallStaffDistance|incipit|incipitSoprano|incipitAlto|incipitTenore|transposedName|transposedNameShort|transposedTimp|transposedTimpShort|insertEmptyPage|part|section|subsection|addTocEntry|addTocLabel|remark|arco|bassi|colOrg|dolce|org|pizz|senzaOrg|solo|tasto|tutti|unisono|vlc|critnote|mvTr|mvTrh|mvTrr|tempoMarkup|twofourtime|twotwotime|bp|extraNat|hairpinDashed|hairpinSolid|hideTn|kneeBeam|noKneeBeam|markDaCapo|mvDl|mvDll|parOn|parOff|sbOn|sbOff|scriptOut|x|pa|pao|pd|rh|lh|bo|bc|dynScript|dynScriptPrefix)(?![a-zA-Z])'
     'name': 'keyword.custom.lilypond'
   }
   {
